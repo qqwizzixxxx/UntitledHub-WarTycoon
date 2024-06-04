@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ShaddowScripts/Main/main/Library"))()
+local library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/qqwizzixxxx/UntitledHub-WarTycoon/main/Ui%20Lib/Shadow%20Lib.lua"))()
 
 local Main = library:CreateWindow("Main","Crimson")
 
