@@ -11,11 +11,11 @@ local tab4 = Main:CreateTab("Universal")
 local tab5 = Main:CreateTab("Credits")
 
 tab:CreateButton("AimBot",function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/qqwizzixxxx/UntitledHub-WarTycoon/main/ScriptWarTycoon/Functions/AimBot.lua"))()
 end)
 
 tab:CreateButton("SilentAim",function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/qqwizzixxxx/UntitledHub-WarTycoon/main/ScriptWarTycoon/Functions/SilentAim.lua"))()
 end)
 
 tab3:CreateSlider("Speed",16,555,function(a)
@@ -37,11 +37,15 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 end)
 end)
 
-tab2:CreateButton("esp",function()
-    loadstring(game:HttpGet(""))()
+tab3:CreateButton("Rejoin",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/qqwizzixxxx/UntitledHub-WarTycoon/main/ScriptWarTycoon/Functions/Rejoin.lua"))()
 end)
 
-tab4:CreateButton("esp",function()
+tab2:CreateButton("esp",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/qqwizzixxxx/UntitledHub-WarTycoon/main/ScriptWarTycoon/Functions/ESP.lua"))()
+end)
+
+tab4:CreateButton("IY",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
